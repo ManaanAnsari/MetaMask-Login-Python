@@ -9,7 +9,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 
 function UserTable(props) {
     const renderTooltip = props => (
-        <Tooltip {...props}>Tooltip for the register button</Tooltip>
+        <Tooltip {...props}>Logout</Tooltip>
     );
     const AccountCTX = useContext(AccountInfoContext);
 

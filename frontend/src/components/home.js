@@ -10,7 +10,7 @@ import UserTable from './UserTable';
 
 function Home(props) {
     const renderTooltip = props => (
-        <Tooltip {...props}>Tooltip for the register button</Tooltip>
+        <Tooltip {...props}>Login!</Tooltip>
       );
 
   const AccountCTX = useContext(AccountInfoContext);
