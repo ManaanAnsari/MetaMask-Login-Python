@@ -4,19 +4,23 @@ first clone this repo
 
 ### Backend
 
-`cd backend/`
-`pip install -r requirements.txt`
-`python manage.py runserver`
+```
+cd backend/
+pip install -r requirements.txt
+python manage.py runserver
+```
 
 this will start the Django server on http://127.0.0.1:8000/ you will see swagger UI
 
 
 ### Frontend
 open a new terminal
+```
 
-`cd frontend/`
-`yarn install`
-`yarn start`
+cd frontend/
+yarn install
+yarn start
+```
 
 this will start the react server on  http://localhost:3000/
 
